@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>790</width>
+    <height>591</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>790</width>
+    <height>591</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="minimumSize">
+    <size>
+     <width>790</width>
+     <height>591</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>790</width>
+     <height>591</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/prefix1/images/background.png);</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>130</y>
+      <width>531</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="Button_singer">
+           <property name="styleSheet">
+            <string notr="true">background: transparent</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource1.qrc">
+             <normaloff>:/new/prefix1/images/singer.png</normaloff>:/new/prefix1/images/singer.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Button_lan">
+           <property name="styleSheet">
+            <string notr="true">background: transparent</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource1.qrc">
+             <normaloff>:/new/prefix1/images/lanauage.png</normaloff>:/new/prefix1/images/lanauage.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="Button_rank">
+         <property name="styleSheet">
+          <string notr="true">background: transparent</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="resource1.qrc">
+           <normaloff>:/new/prefix1/images/rank.png</normaloff>:/new/prefix1/images/rank.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>200</width>
+           <height>200</height>
+          </size>
+         </property>
+         <property name="flat">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="Button_name">
+           <property name="styleSheet">
+            <string notr="true">background: transparent</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource1.qrc">
+             <normaloff>:/new/prefix1/images/song_name.png</normaloff>:/new/prefix1/images/song_name.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Button_style">
+           <property name="styleSheet">
+            <string notr="true">background: transparent</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="resource1.qrc">
+             <normaloff>:/new/prefix1/images/style.png</normaloff>:/new/prefix1/images/style.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>100</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="flat">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QVideoWidget" name="videoWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>791</width>
+      <height>561</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>271</y>
+      <width>311</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>已点</string>
+     </attribute>
+     <widget class="QTableWidget" name="song_list">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>300</width>
+        <height>262</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>262</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>361</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;</string>
+      </property>
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="dragDropOverwriteMode">
+       <bool>false</bool>
+      </property>
+      <column>
+       <property name="text">
+        <string>歌曲</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>顶歌</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>已唱</string>
+     </attribute>
+     <widget class="QTableWidget" name="songed_list">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>300</width>
+        <height>262</height>
+       </rect>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>300</width>
+        <height>262</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>300</width>
+        <height>262</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background:transparent;</string>
+      </property>
+      <column>
+       <property name="text">
+        <string>歌曲</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>重唱</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="bottom_button" native="true">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>550</y>
+      <width>791</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255,95%);
+background:transparent</string>
+    </property>
+    <widget class="QPushButton" name="showsong_button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>3</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource1.qrc">
+       <normaloff>:/new/prefix1/images/sing.png</normaloff>:/new/prefix1/images/sing.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="change_button">
+     <property name="geometry">
+      <rect>
+       <x>191</x>
+       <y>3</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource1.qrc">
+       <normaloff>:/new/prefix1/images/yuanchang.png</normaloff>:/new/prefix1/images/yuanchang.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="stop_start_button">
+     <property name="geometry">
+      <rect>
+       <x>261</x>
+       <y>3</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource1.qrc">
+       <normaloff>:/new/prefix1/images/stop.png</normaloff>:/new/prefix1/images/stop.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="next_button">
+     <property name="geometry">
+      <rect>
+       <x>321</x>
+       <y>3</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource1.qrc">
+       <normaloff>:/new/prefix1/images/next.png</normaloff>:/new/prefix1/images/next.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="restart_button">
+     <property name="geometry">
+      <rect>
+       <x>388</x>
+       <y>3</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource1.qrc">
+       <normaloff>:/new/prefix1/images/restart.png</normaloff>:/new/prefix1/images/restart.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="show_list_button">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>3</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource1.qrc">
+       <normaloff>:/new/prefix1/images/list.png</normaloff>:/new/prefix1/images/list.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>20</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>453</x>
+       <y>4</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource1.qrc">
+       <normaloff>:/new/prefix1/images/sound.png</normaloff>:/new/prefix1/images/sound.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QSlider" name="volume">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>10</y>
+       <width>101</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent</string>
+     </property>
+     <property name="minimum">
+      <number>0</number>
+     </property>
+     <property name="pageStep">
+      <number>6</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>108</x>
+       <y>4</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>open</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>-10</y>
+      <width>271</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background: transparent</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource1.qrc">
+       <normaloff>:/new/prefix1/images/search.png</normaloff>:/new/prefix1/images/search.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>141</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+background-color: rgb(176, 176, 176);
+
+</string>
+     </property>
+     <property name="frame">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>搜索</string>
+     </property>
+    </widget>
+    <zorder>lineEdit</zorder>
+    <zorder>pushButton</zorder>
+   </widget>
+   <zorder>widget</zorder>
+   <zorder>tabWidget</zorder>
+   <zorder>bottom_button</zorder>
+   <zorder>widget_2</zorder>
+   <zorder>videoWidget</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QVideoWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">QVideowidget</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resource1.qrc"/>
+ </resources>
+ <connections/>
+</ui>

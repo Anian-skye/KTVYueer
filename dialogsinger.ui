@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialogSinger</class>
+ <widget class="QDialog" name="dialogSinger">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/images/background.png);</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>26</x>
+     <y>100</y>
+     <width>701</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="singerList">
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>652</width>
+       <height>320</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="styleSheet">
+           <string notr="true">background:transparent</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resource1.qrc">
+            <normaloff>:/new/prefix1/images/singer/esion.png</normaloff>:/new/prefix1/images/singer/esion.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="styleSheet">
+           <string notr="true">background:transparent</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resource1.qrc">
+            <normaloff>:/new/prefix1/images/singer/jielun.png</normaloff>:/new/prefix1/images/singer/jielun.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="styleSheet">
+           <string notr="true">background:transparent</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resource1.qrc">
+            <normaloff>:/new/prefix1/images/singer/wenwei.png</normaloff>:/new/prefix1/images/singer/wenwei.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background:transparent</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resource1.qrc">
+            <normaloff>:/new/prefix1/images/singer/mei.png</normaloff>:/new/prefix1/images/singer/mei.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background:transparent</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resource1.qrc">
+            <normaloff>:/new/prefix1/images/singer/youjia.png</normaloff>:/new/prefix1/images/singer/youjia.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background:transparent</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resource1.qrc">
+            <normaloff>:/new/prefix1/images/singer/adam.png</normaloff>:/new/prefix1/images/singer/adam.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>200</width>
+            <height>150</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="songList">
+    <widget class="QTableWidget" name="songListTab">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>531</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>歌曲</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>点歌</string>
+      </property>
+     </column>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="bottom_button" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>550</y>
+     <width>791</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255,95%);
+background:transparent</string>
+   </property>
+   <widget class="QPushButton" name="fanhui">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget_2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>-10</y>
+     <width>271</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resource1.qrc">
+      <normaloff>:/new/prefix1/images/search.png</normaloff>:/new/prefix1/images/search.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(176, 176, 176);
+
+</string>
+    </property>
+    <property name="frame">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>搜索</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource1.qrc"/>
+ </resources>
+ <connections/>
+</ui>
